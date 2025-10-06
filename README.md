@@ -72,8 +72,43 @@
 
 
 
-# Classe vs. objeto
+# Classe vs. objeto:
 
 - Classe é uma definição do que um objeto deve conter e como ele se comporta.
 
 - Objeto é uma instância concreta da classe, criada em memória com seus próprios valores.
+
+  
+		public class Pessoa
+		{
+		    public string Nome;
+		    public int Idade;
+		}
+		class Program
+		{
+		    static void Main()
+		    {
+		        Pessoa pessoa1 = new Pessoa();  // objeto criado a partir da classe Pessoa
+		        pessoa1.Nome = "Ana";
+		        pessoa1.Idade = 25;
+		        Console.WriteLine($"Nome: {pessoa1.Nome}, Idade: {pessoa1.Idade}");
+		    }
+		}
+
+
+  # Modificadores de acesso:
+
+- Public: O membro é acessível de qualquer lugar (sem restrição).
+
+- Private: O membro só pode ser acessado dentro da própria classe. 
+
+- Protected: O membro pode ser acessado dentro da classe e por classes de herança.
+
+Quando usar:
+
+- Private para proteger dados internos da classe (encapsulamento).
+
+- Public para expor propriedades e métodos que precisam ser acessados por outras partes do programa.
+
+- Protected para permitir acesso em classes filhas, mas dentro da hierarquia.
+
