@@ -73,3 +73,7 @@
 
 
 # Classe vs. objeto
+
+- Classe é uma definição do que um objeto deve conter e como ele se comporta.
+
+- Objeto é uma instância concreta da classe, criada em memória com seus próprios valores.
