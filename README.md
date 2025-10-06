@@ -4,7 +4,7 @@
 
 
 # Conceitos fundamentais 
-	1.Encapsulamento: 
+1.Encapsulamento: 
 		Ocultar os detalhes internos de uma classe, mostrando so o essencial por meio de métodos e propriedades. 
 		Assim garante a proteção dos dados e impede o acesso direto e não autorizado.
 
