@@ -112,3 +112,30 @@ Quando usar:
 
 - Protected para permitir acesso em classes filhas, mas dentro da hierarquia.
 
+
+# Sobrecarga (Overloading) vs. Sobrescrita (Overriding)
+
+- Sobrecarga: Métodos com o mesmo nome, mas assinaturas diferentes  dentro da mesma classe.
+
+- Sobrescrita: Uma classe derivada redefine a implementação de um método da classe base.
+
+  Exemplo Sobrecarga:
+  
+		public class Calculadora
+		{
+		    public int Somar(int a, int b) => a + b;
+		    public int Somar(int a, int b, int c) => a + b + c;  // método sobrecarregado
+		}
+  Exemplo Sobrescrita:
+
+		public class Animal
+		{
+		    public virtual void Falar() => Console.WriteLine("Som genérico");
+		}
+		public class Cachorro : Animal
+		{
+		    public override void Falar() => Console.WriteLine("Au Au");
+		}
+
+
+
