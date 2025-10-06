@@ -20,7 +20,7 @@
 		}
 
 
-	2.Herança:
+2.Herança:
 		Quando uma classe (classe derivada) herda propriedades e métodos de outra (classe base),reutilizando o código.
 
 		public class Animal
@@ -35,7 +35,7 @@
 
 
 
-	3.Polimorfismo:
+3.Polimorfismo:
 		É quando permite que objetos de diferentes classes derivadas possam ser tratados como objetos da classe base, assim podendo executar métodos sobrescrito.	
 
 		public class Animal
@@ -55,7 +55,7 @@
 
 
 
-	4.Abstração:
+4.Abstração:
 		É o foco nos aspectos essenciais de um objeto, ignorando detalhes complexos ou irrelevantes
 
 
